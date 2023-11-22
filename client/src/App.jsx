@@ -21,7 +21,6 @@ const router = createBrowserRouter([
     children: [
       // Protected Routes
       {
-        path: "/",
         element: <ProtectedRoutes />,
         children: [
           {
